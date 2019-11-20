@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.cibof.app" version="2.0.0" android-versionCode="20000" ios-CFBundleVersion="2.0.0">
-  <name>CINBOF Mobile Banking</name>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.sc-lnc.app" version="2.0.0" android-versionCode="20000" ios-CFBundleVersion="2.0.0">
+  <name>SCB Piggy</name>
     <description>
         No 1 Online Banking.
     </description>
-    <author email="info@cibof.com" href="">
-        CINBOF Mobile Banking
+    <author email="enquiry@sc-lnc.com" href="">
+        StandardBnk Mobile Banking
     </author>
   <content src="index.html"/>
 
