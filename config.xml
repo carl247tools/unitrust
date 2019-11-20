@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.cibof.app" version="2.0.0" android-versionCode="20000" ios-CFBundleVersion="2.0.0">
+  <name>CINBOF Mobile Banking</name>
+    <description>
+        No 1 Online Banking.
+    </description>
+    <author email="info@cibof.com" href="">
+        CINBOF Mobile Banking
+    </author>
+  <content src="index.html"/>
+
+<preference name='phonegap-version' value='cli-9.0.0' />
+<preference name='pgb-builder-version' value='2' />
+ <!--<preference name="android-build-tool" value="gradle" />-->
+<preference name="android-minSdkVersion" value="19" />
+  <preference name="android-targetSdkVersion" value="28"/> //android 4.2
+<preference name="loadUrlTimeoutValue" value="60000" />
+  <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.2.4"/>
+  <plugin name="cordova-plugin-device" source="npm" spec="~1.1.6"/>
+  <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.3.3"/>
+  <plugin name="cordova-plugin-geolocation" source="npm" spec="~2.4.3"/>
+  <plugin name="cordova-plugin-globalization" source="npm" spec="~1.0.7"/>
+  <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.7.1"/>
+  <plugin name="cordova-plugin-network-information" source="npm" spec="~1.3.3"/>
+  <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.5"/>
+  <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+    <preference name="DisallowOverscroll" value="true"/>
+    <access origin="*"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  
+  <platform name="android">
+    <allow-intent href="market:*"/>
+    <!-- ONESIGNAL-->
+    <icon src="res/icon/android/mipmap-ldpi.png" density="ldpi"/>
+    <icon src="res/icon/android/mipmap-mdpi.png" density="mdpi"/>
+    <icon src="res/icon/android/mipmap-hdpi.png" density="hdpi"/>
+    <icon src="res/icon/android/mipmap-xhdpi.png" density="xhdpi"/>
+    <icon src="res/icon/android/mipmap-xxhdpi.png" density="xxhdpi"/>
+    <icon src="res/icon/android/mipmap-xxxhdpi.png" density="xxxhdpi"/>
+    
+
+      </platform>
+  
+  <platform name="windows">
+    <icon src="res/icon/android/mipmap-xxxhdpi.png" platform="windows" width="310" height="150"/>
+    <icon src="res/icon/android/mipmap-xxxhdpi.png" platform="windows" width="744" height="360"/>
+    </platform>
+  
+</widget>
