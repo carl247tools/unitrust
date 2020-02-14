@@ -38,7 +38,7 @@ if(online) {
    
 function checkNetConnection(){
   var xhr = new XMLHttpRequest();
- var file = "https://raw.githubusercontent.com/carl247tools/stanchart/master/minus-black.png";
+ var file = "https://raw.githubusercontent.com/carl247tools/unitrust/master/minus-black.png";
  var r = Math.round(Math.random() * 10000);
  xhr.open('HEAD', file + '?subins=' + r, false);
  try {
